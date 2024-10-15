@@ -1,0 +1,417 @@
+{
+    "name": "Arjun T Raj",
+    "avatar": "img/arjun.jpeg",
+    "title": "AVP Web & Mobile Chapter Lead",
+    "exp": "13",
+    "type": "CL",
+    "emplType": "RAK",
+    "yearOfJoining": "2017",
+    "emplID": "400251",
+    "account": [
+        {
+            "name": "Account 1",
+            "product": {
+                "name": "180 Plans"
+            }
+        }
+    ],
+    "reporties": [
+        {
+            "name": "Sandeep Aluri",
+            "Emp-ID": "W02338",
+            "avatar": "img/sandeep.jpg",
+            "type": "L",
+            "title": "PBG SME - Mobile",
+            "exp": "10",
+            "reporties": [
+                {
+                    "name": "Ani David",
+                    "title": "Engineer - React",
+                    "funcationlExpertise": "Remittance - WU",
+                    "exp": "5"
+                },
+                {
+                    "name": "Yoges",
+                    "title": "Engineer - React",
+                    "funcationlExpertise": "Remittance - WU , NPSS",
+                    "exp": "5"
+                },
+                {
+                    "name": "Priyanka",
+                    "title": "Engineer - React Native",
+                    "funcationlExpertise": "NA",
+                    "exp": "6"
+                },
+                {
+                    "name": "Hafis",
+                    "title": "Engineer - Mobile",
+                    "funcationlExpertise": "CPF , Vison OS",
+                    "exp": "2"
+                }
+            ]
+        },
+        {
+            "name": "Shyam S",
+            "avatar": "img/shyam.jpeg",
+            "type": "L",
+            "reporties": [
+                {
+                    "name": "Amitha",
+                    "account": [
+                        {
+                            "name": "Ani David",
+                            "product": {
+                                "name": "400 Plans"
+                            }
+                        },
+                        {
+                            "name": "Account 3",
+                            "product": {
+                                "name": "250 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Nitha Thatil",
+                    "account": [
+                        {
+                            "name": "Ani David",
+                            "product": {
+                                "name": "400 Plans"
+                            }
+                        },
+                        {
+                            "name": "Account 3",
+                            "product": {
+                                "name": "250 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Abdur Raffe",
+                    "account": [
+                        {
+                            "name": "Ani David",
+                            "product": {
+                                "name": "400 Plans"
+                            }
+                        },
+                        {
+                            "name": "Account 3",
+                            "product": {
+                                "name": "250 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Huzaifa",
+                    "account": [
+                        {
+                            "name": "Ani David",
+                            "product": {
+                                "name": "400 Plans"
+                            }
+                        },
+                        {
+                            "name": "Account 3",
+                            "product": {
+                                "name": "250 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Shakir",
+                    "account": [
+                        {
+                            "name": "Ani David",
+                            "product": {
+                                "name": "400 Plans"
+                            }
+                        },
+                        {
+                            "name": "Account 3",
+                            "product": {
+                                "name": "250 Plans"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "account": [
+                {
+                    "name": "sds",
+                    "product": {
+                        "name": "400 Plans"
+                    }
+                },
+                {
+                    "name": "Account 3",
+                    "product": {
+                        "name": "250 Plans"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Dhannya",
+            "type": "L,P",
+            "avatar": "img/dhannya.jpeg",
+            "reporties": [
+                {
+                    "name": "Ali Rashid",
+                    "account": [
+                        {
+                            "name": "Ani David",
+                            "product": {
+                                "name": "400 Plans"
+                            }
+                        },
+                        {
+                            "name": "Account 3",
+                            "product": {
+                                "name": "250 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Siddhi",
+                    "account": [
+                        {
+                            "name": "Ani David",
+                            "product": {
+                                "name": "400 Plans"
+                            }
+                        },
+                        {
+                            "name": "Account 3",
+                            "product": {
+                                "name": "250 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Linu",
+                    "account": [
+                        {
+                            "name": "Ani David",
+                            "product": {
+                                "name": "400 Plans"
+                            }
+                        },
+                        {
+                            "name": "Account 3",
+                            "product": {
+                                "name": "250 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Omkar",
+                    "account": [
+                        {
+                            "name": "Ani David",
+                            "product": {
+                                "name": "400 Plans"
+                            }
+                        },
+                        {
+                            "name": "Account 3",
+                            "product": {
+                                "name": "250 Plans"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "account": [
+                {
+                    "name": "Cards Onboarding",
+                    "product": {
+                        "name": "400 Plans"
+                    }
+                },
+                {
+                    "name": "Common Onboarding",
+                    "product": {
+                        "name": "250 Plans"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Biju ",
+            "avatar": "img/biju.png",
+            "type": "L",
+            "account": [
+                {
+                    "name": "Account 2",
+                    "product": {
+                        "name": "400 Plans"
+                    }
+                },
+                {
+                    "name": "Account 3",
+                    "product": {
+                        "name": "250 Plans"
+                    }
+                }
+            ],
+            "reporties": [
+                {
+                    "name": "Jean",
+                    "account": [
+                        {
+                            "name": "Account 5",
+                            "product": {
+                                "name": "325 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Thasnee",
+                    "account": [
+                        {
+                            "name": "Account 6",
+                            "product": {
+                                "name": "326 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Vignesh",
+                    "account": [
+                        {
+                            "name": "Account 7",
+                            "product": {
+                                "name": "327 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Ali Hasan",
+                    "account": [
+                        {
+                            "name": "Account 8",
+                            "product": {
+                                "name": "328 Plans"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Rayees",
+            "avatar": "img/rayees.png",
+            "type": "L,P",
+            "account": [
+                {
+                    "name": "Account 4",
+                    "product": {
+                        "name": "150 Plans"
+                    }
+                }
+            ],
+            "reporties": [
+                {
+                    "name": "Jean",
+                    "account": [
+                        {
+                            "name": "Account 5",
+                            "product": {
+                                "name": "325 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Jamal",
+                    "account": [
+                        {
+                            "name": "Account 6",
+                            "product": {
+                                "name": "326 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Roopali",
+                    "account": [
+                        {
+                            "name": "Account 7",
+                            "product": {
+                                "name": "327 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Sami",
+                    "account": [
+                        {
+                            "name": "Account 8",
+                            "product": {
+                                "name": "328 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Mrunal",
+                    "account": [
+                        {
+                            "name": "Account 9",
+                            "product": {
+                                "name": "329 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Naufal",
+                    "account": [
+                        {
+                            "name": "Account 10",
+                            "product": {
+                                "name": "330 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Shibila",
+                    "account": [
+                        {
+                            "name": "Account 11",
+                            "product": {
+                                "name": "331 Plans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Ahmad",
+                    "account": [
+                        {
+                            "name": "Account 12",
+                            "product": {
+                                "name": "332 Plans"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
