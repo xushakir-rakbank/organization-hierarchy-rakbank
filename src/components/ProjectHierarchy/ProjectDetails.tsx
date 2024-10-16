@@ -47,7 +47,7 @@ export default function ProjectDetails({
                 <Typography variant="h6" sx={{ mb: 1 }}>
                     Technologies Used
                 </Typography>
-                {project.technologies.map((t) => (
+                {project?.technologies?.map((t) => (
                     <Typography
                         key={t}
                         component="span"

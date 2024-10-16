@@ -38,6 +38,7 @@ function Organization({ o, parent }: NodeProps) {
 
     return collapsed ? (
         <T
+            className={collapsed ? "displayNone" : ""}
             label={
                 <Node
                     org={o}
@@ -50,6 +51,7 @@ function Organization({ o, parent }: NodeProps) {
         </T>
     ) : (
         <T
+            className={collapsed ? "displayNone" : ""}
             label={
                 <Node
                     org={o}

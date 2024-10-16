@@ -4,73 +4,40 @@ import Node from "./Node";
 import projects from "../../data/projects.json";
 import { findUsersByProjectID } from "../../utils";
 import orgData from "../../data/org.json";
-import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
-import { Project } from "../../types";
 
 function ProjectTree() {
-    const [projectId, setProjectId] = useState<string>("");
     const [projectNode, setProjectNode] = useState<any>({});
-    const [allProjects, setAllProjects] = useState<Project[]>([]);
 
     useEffect(() => {
-        const id = projects?.[0].id;
-        fetchProjectDetails(id);
-        setProjectId(projects?.[0].id);
-        setAllProjects(projects);
+        fetchProjectDetails();
     }, []);
 
-    useEffect(() => {
-        fetchProjectDetails(projectId);
-    }, [projectId]);
+    const fetchProjectDetails = () => {
+        const projectsData: any = [];
+        projects.forEach((p) => {
+            const projUsers = findUsersByProjectID(p.id, orgData);
+            const projNode = {
+                ...p,
+                collapsed: false,
+                nestedData: projUsers,
+            };
+            projectsData.push(projNode);
+        });
 
-    const fetchProjectDetails = (id: string) => {
-        const proj = projects.find((p) => p.id === id);
-        const projUsers = findUsersByProjectID(id, orgData);
-
-        const projNode = {
-            ...proj,
-            collapsed: false,
-            users: projUsers,
-        };
-        setProjectNode(projNode);
+        setProjectNode({
+            id: "P0000",
+            name: "Digital Engeering",
+            nestedData: projectsData,
+        });
     };
 
-    return (
-        <>
-            <FormControl
-                sx={{
-                    position: "fixed",
-                    top: "20px",
-                    left: "20px",
-                    minWidth: "300px",
-                }}
-            >
-                <InputLabel id="demo-simple-select-label">Project</InputLabel>
-                <Select
-                    labelId="demo-simple-select-label"
-                    id="demo-simple-select"
-                    value={projectId}
-                    label="Project"
-                    onChange={(e) => setProjectId(e.target.value)}
-                >
-                    {allProjects.map((p) => (
-                        <MenuItem key={p.id} value={p.id}>
-                            {p.name}
-                        </MenuItem>
-                    ))}
-                </Select>
-            </FormControl>
-            <ProjectHierarchy projNode={projectNode} />
-        </>
-    );
+    return <ProjectHierarchy projNode={projectNode} />;
 }
 
 function ProjectHierarchy({
     parent,
-    user,
     projNode,
 }: {
-    user?: any;
     parent?: any;
     projNode?: any;
 }) {
@@ -109,12 +76,12 @@ function ProjectHierarchy({
         <>
             {collapsed ? (
                 <T
+                    className={collapsed ? "displayNone" : ""}
                     label={
                         <Node
-                            project={projectNode}
+                            data={projectNode}
                             onCollapse={() => handleCollapse()}
                             collapsed={collapsed}
-                            user={user}
                         />
                     }
                 >
@@ -122,20 +89,20 @@ function ProjectHierarchy({
                 </T>
             ) : (
                 <T
+                    className={collapsed ? "displayNone" : ""}
                     label={
                         <Node
-                            project={projectNode}
+                            data={projectNode}
                             onCollapse={() => handleCollapse()}
                             collapsed={collapsed}
-                            user={user}
                         />
                     }
                 >
-                    {projectNode?.users?.map((u: any, index: number) => (
+                    {projectNode?.nestedData?.map((p: any, index: number) => (
                         <ProjectHierarchy
                             key={index}
-                            user={u}
                             parent={projectNode}
+                            projNode={p}
                         />
                     ))}
                 </T>

@@ -25,7 +25,8 @@ export type NodeProps = {
 export const rootStyle = {
     background: "white",
     display: "inline-block",
-    borderRadius: 16,
+    borderRadius: 5,
+    width: "max-content",
 };
 
 export const avatarStyle = {
@@ -83,31 +84,38 @@ function Node({ org, onCollapse, collapsed }: NodeProps) {
                     }
                     title={
                         <Typography
-                            sx={{ cursor: "pointer" }}
+                            sx={{ cursor: "pointer", mr: 1 }}
                             onClick={() => setOpenProfileDetail(true)}
                         >
                             {org.name}
                         </Typography>
                     }
+                    action={
+                        (org?.reporties?.length || 0 > 0) && (
+                            <IconButton
+                                size="small"
+                                sx={{
+                                    mt: 1,
+                                    marginLeft: "auto",
+                                    transition: theme.transitions.create(
+                                        "transform",
+                                        {
+                                            duration:
+                                                theme.transitions.duration
+                                                    .short,
+                                        }
+                                    ),
+                                    transform: collapsed
+                                        ? "rotate(0deg)"
+                                        : "rotate(180deg)",
+                                }}
+                                onClick={onCollapse}
+                            >
+                                <ExpandMoreIcon />
+                            </IconButton>
+                        )
+                    }
                 />
-                {(org?.reporties?.length || 0 > 0) && (
-                    <IconButton
-                        size="small"
-                        sx={{
-                            marginTop: -5,
-                            marginLeft: "auto",
-                            transition: theme.transitions.create("transform", {
-                                duration: theme.transitions.duration.short,
-                            }),
-                            transform: collapsed
-                                ? "rotate(0deg)"
-                                : "rotate(180deg)",
-                        }}
-                        onClick={onCollapse}
-                    >
-                        <ExpandMoreIcon />
-                    </IconButton>
-                )}
             </Card>
 
             {openProfileDetail && (
