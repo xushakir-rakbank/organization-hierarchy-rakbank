@@ -13,7 +13,7 @@ import {
     findDetails,
     rootStyle,
 } from "../OrganizationHierarchy/Node";
-import { getRandomColor } from "../../utils";
+import { getRandomColor, loadProfileImage } from "../../utils";
 import { ExpandMore } from "@mui/icons-material";
 import UserDetails from "../UserDetails";
 import ProjectDetails from "./ProjectDetails";
@@ -56,9 +56,11 @@ export default function Node({ data, onCollapse, collapsed }: NodeProps) {
                                     ...avatarStyle,
                                     bgcolor: getRandomColor(),
                                 }}
-                            >
-                                {data?.name?.charAt(0)?.toUpperCase()}
-                            </Avatar>
+                                src={
+                                    loadProfileImage(data.name) ||
+                                    data.name.charAt(0).toUpperCase()
+                                }
+                            />
                         </Badge>
                     }
                     title={

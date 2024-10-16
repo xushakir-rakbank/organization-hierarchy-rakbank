@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-import { getRandomColor } from "../../utils";
+import { getRandomColor, loadProfileImage } from "../../utils";
 import ResumePortfolio from "../UserDetails";
 import details from "../../data/details.json";
 import { Employee } from "../../types";
@@ -76,9 +76,11 @@ function Node({ org, onCollapse, collapsed }: NodeProps) {
                                         ...avatarStyle,
                                         bgcolor: getRandomColor(),
                                     }}
-                                >
-                                    {org.name.charAt(0).toUpperCase()}
-                                </Avatar>
+                                    src={
+                                        loadProfileImage(org.name) ||
+                                        org.name.charAt(0).toUpperCase()
+                                    }
+                                />
                             </Badge>
                         </Tooltip>
                     }
