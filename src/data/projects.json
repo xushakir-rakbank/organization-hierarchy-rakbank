@@ -1,0 +1,50 @@
+[
+    {
+        "id": "P0001",
+        "name": "Online Loan Application System",
+        "description": "A system that allows customers to apply for personal, home, and auto loans online. It includes application processing, document uploads, and integration with credit score APIs for eligibility checks.",
+        "technologies": ["React", "Node.js", "MongoDB", "Express", "AWS S3"]
+    },
+    {
+        "id": "P0002",
+        "name": "Fraud Detection System",
+        "description": "A system that monitors transaction data to detect potentially fraudulent activities in real-time using machine learning algorithms and transaction history analysis.",
+        "technologies": [
+            "Python",
+            "TensorFlow",
+            "PostgreSQL",
+            "AWS Lambda",
+            "Kafka"
+        ]
+    },
+    {
+        "id": "P0003",
+        "name": "Customer Onboarding Portal",
+        "description": "A portal that streamlines the onboarding process for new customers. It allows identity verification using KYC/AML procedures and digital signatures for document approvals.",
+        "technologies": [
+            "Angular",
+            "Java Spring Boot",
+            "MySQL",
+            "Docker",
+            "Kubernetes"
+        ]
+    },
+    {
+        "id": "P0004",
+        "name": "Mobile Banking App",
+        "description": "A mobile banking app that provides customers with access to their accounts, transaction history, fund transfers, and bill payments. It also integrates with mobile payment gateways and supports multi-factor authentication.",
+        "technologies": [
+            "React Native",
+            "GraphQL",
+            "Node.js",
+            "SQLite",
+            "AWS Amplify"
+        ]
+    },
+    {
+        "id": "P0005",
+        "name": "Skiply",
+        "description": "Skiply description",
+        "technologies": ["React", "Node.js", "MongoDB", "Express", "AWS S3"]
+    }
+]

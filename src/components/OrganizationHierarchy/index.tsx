@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { Tree, TreeNode } from "react-organizational-chart";
 import Node from "./Node";
-import Account from "./Account";
-import Product from "./Product";
 import { Employee } from "../../types";
 
 interface EmployeeType extends Employee {
@@ -60,11 +58,6 @@ function Organization({ o, parent }: NodeProps) {
                 />
             }
         >
-            {o.account?.map((a, index) => (
-                <TreeNode key={index} label={<Account a={a} />}>
-                    <TreeNode label={<Product p={a.product} />} />
-                </TreeNode>
-            ))}
             {o?.reporties?.map((c, index) => (
                 <Organization key={index} o={c} parent={o} />
             ))}

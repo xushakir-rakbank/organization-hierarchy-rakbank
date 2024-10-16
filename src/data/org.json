@@ -7,14 +7,7 @@
     "emplType": "RAK",
     "yearOfJoining": "2017",
     "emplID": "400251",
-    "account": [
-        {
-            "name": "Account 1",
-            "product": {
-                "name": "180 Plans"
-            }
-        }
-    ],
+    "projects": ["P0002", "P0001", "P0003"],
     "reporties": [
         {
             "name": "Sandeep Aluri",
@@ -23,30 +16,35 @@
             "type": "L",
             "title": "PBG SME - Mobile",
             "exp": "10",
+            "projects": ["P0001", "P0003"],
             "reporties": [
                 {
                     "name": "Ani David",
                     "title": "Engineer - React",
                     "funcationlExpertise": "Remittance - WU",
-                    "exp": "5"
+                    "exp": "5",
+                    "projects": ["P0002", "P0001"]
                 },
                 {
                     "name": "Yoges",
                     "title": "Engineer - React",
                     "funcationlExpertise": "Remittance - WU , NPSS",
-                    "exp": "5"
+                    "exp": "5",
+                    "projects": ["P0002", "P0001"]
                 },
                 {
                     "name": "Priyanka",
                     "title": "Engineer - React Native",
                     "funcationlExpertise": "NA",
-                    "exp": "6"
+                    "exp": "6",
+                    "projects": ["P0002", "P0001"]
                 },
                 {
                     "name": "Hafis",
                     "title": "Engineer - Mobile",
                     "funcationlExpertise": "CPF , Vison OS",
-                    "exp": "2"
+                    "exp": "2",
+                    "projects": ["P0002", "P0001"]
                 }
             ]
         },
@@ -54,105 +52,27 @@
             "name": "Shyam S",
             "avatar": "img/shyam.jpeg",
             "type": "L",
+            "projects": ["P0001", "P0002", "P0003"],
             "reporties": [
                 {
                     "name": "Amitha",
-                    "account": [
-                        {
-                            "name": "Ani David",
-                            "product": {
-                                "name": "400 Plans"
-                            }
-                        },
-                        {
-                            "name": "Account 3",
-                            "product": {
-                                "name": "250 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0001"]
                 },
                 {
                     "name": "Nitha Thatil",
-                    "account": [
-                        {
-                            "name": "Ani David",
-                            "product": {
-                                "name": "400 Plans"
-                            }
-                        },
-                        {
-                            "name": "Account 3",
-                            "product": {
-                                "name": "250 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0002", "P0001"]
                 },
                 {
-                    "name": "Abdur Raffe",
-                    "account": [
-                        {
-                            "name": "Ani David",
-                            "product": {
-                                "name": "400 Plans"
-                            }
-                        },
-                        {
-                            "name": "Account 3",
-                            "product": {
-                                "name": "250 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0004", "P0001"],
+                    "name": "Abdur Raffe"
                 },
                 {
                     "name": "Huzaifa",
-                    "account": [
-                        {
-                            "name": "Ani David",
-                            "product": {
-                                "name": "400 Plans"
-                            }
-                        },
-                        {
-                            "name": "Account 3",
-                            "product": {
-                                "name": "250 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0002"]
                 },
                 {
                     "name": "Shakir",
-                    "account": [
-                        {
-                            "name": "Ani David",
-                            "product": {
-                                "name": "400 Plans"
-                            }
-                        },
-                        {
-                            "name": "Account 3",
-                            "product": {
-                                "name": "250 Plans"
-                            }
-                        }
-                    ]
-                }
-            ],
-            "account": [
-                {
-                    "name": "sds",
-                    "product": {
-                        "name": "400 Plans"
-                    }
-                },
-                {
-                    "name": "Account 3",
-                    "product": {
-                        "name": "250 Plans"
-                    }
+                    "projects": ["P0005", "P0001"]
                 }
             ]
         },
@@ -160,153 +80,48 @@
             "name": "Dhannya",
             "type": "L,P",
             "avatar": "img/dhannya.jpeg",
+            "projects": ["P0002", "P0003"],
             "reporties": [
                 {
                     "name": "Ali Rashid",
-                    "account": [
-                        {
-                            "name": "Ani David",
-                            "product": {
-                                "name": "400 Plans"
-                            }
-                        },
-                        {
-                            "name": "Account 3",
-                            "product": {
-                                "name": "250 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0004", "P0001"]
                 },
                 {
                     "name": "Siddhi",
-                    "account": [
-                        {
-                            "name": "Ani David",
-                            "product": {
-                                "name": "400 Plans"
-                            }
-                        },
-                        {
-                            "name": "Account 3",
-                            "product": {
-                                "name": "250 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0002", "P0001"]
                 },
                 {
                     "name": "Linu",
-                    "account": [
-                        {
-                            "name": "Ani David",
-                            "product": {
-                                "name": "400 Plans"
-                            }
-                        },
-                        {
-                            "name": "Account 3",
-                            "product": {
-                                "name": "250 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0002", "P0003"]
                 },
                 {
                     "name": "Omkar",
-                    "account": [
-                        {
-                            "name": "Ani David",
-                            "product": {
-                                "name": "400 Plans"
-                            }
-                        },
-                        {
-                            "name": "Account 3",
-                            "product": {
-                                "name": "250 Plans"
-                            }
-                        }
-                    ]
-                }
-            ],
-            "account": [
-                {
-                    "name": "Cards Onboarding",
-                    "product": {
-                        "name": "400 Plans"
-                    }
-                },
-                {
-                    "name": "Common Onboarding",
-                    "product": {
-                        "name": "250 Plans"
-                    }
+                    "projects": ["P0005", "P0001"]
                 }
             ]
         },
         {
             "name": "Biju ",
             "avatar": "img/biju.png",
+            "emplID": "400252",
             "type": "L",
-            "account": [
-                {
-                    "name": "Account 2",
-                    "product": {
-                        "name": "400 Plans"
-                    }
-                },
-                {
-                    "name": "Account 3",
-                    "product": {
-                        "name": "250 Plans"
-                    }
-                }
-            ],
+            "projects": ["P0003", "P0001"],
             "reporties": [
                 {
                     "name": "Jean",
-                    "account": [
-                        {
-                            "name": "Account 5",
-                            "product": {
-                                "name": "325 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0003", "P0001"]
                 },
                 {
                     "name": "Thasnee",
-                    "account": [
-                        {
-                            "name": "Account 6",
-                            "product": {
-                                "name": "326 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0002", "P0001"]
                 },
                 {
                     "name": "Vignesh",
-                    "account": [
-                        {
-                            "name": "Account 7",
-                            "product": {
-                                "name": "327 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0004", "P0001"]
                 },
                 {
                     "name": "Ali Hasan",
-                    "account": [
-                        {
-                            "name": "Account 8",
-                            "product": {
-                                "name": "328 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0003", "P0001"]
                 }
             ]
         },
@@ -314,102 +129,39 @@
             "name": "Rayees",
             "avatar": "img/rayees.png",
             "type": "L,P",
-            "account": [
-                {
-                    "name": "Account 4",
-                    "product": {
-                        "name": "150 Plans"
-                    }
-                }
-            ],
+            "projects": ["P0002", "P0001", "P0003"],
             "reporties": [
                 {
                     "name": "Jean",
-                    "account": [
-                        {
-                            "name": "Account 5",
-                            "product": {
-                                "name": "325 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0003", "P0001"]
                 },
                 {
                     "name": "Jamal",
-                    "account": [
-                        {
-                            "name": "Account 6",
-                            "product": {
-                                "name": "326 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0002", "P0001"]
                 },
                 {
                     "name": "Roopali",
-                    "account": [
-                        {
-                            "name": "Account 7",
-                            "product": {
-                                "name": "327 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0002", "P0004"]
                 },
                 {
                     "name": "Sami",
-                    "account": [
-                        {
-                            "name": "Account 8",
-                            "product": {
-                                "name": "328 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0005", "P0001"]
                 },
                 {
                     "name": "Mrunal",
-                    "account": [
-                        {
-                            "name": "Account 9",
-                            "product": {
-                                "name": "329 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0002", "P0001"]
                 },
                 {
                     "name": "Naufal",
-                    "account": [
-                        {
-                            "name": "Account 10",
-                            "product": {
-                                "name": "330 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0005", "P0001"]
                 },
                 {
                     "name": "Shibila",
-                    "account": [
-                        {
-                            "name": "Account 11",
-                            "product": {
-                                "name": "331 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0004", "P0001"]
                 },
                 {
                     "name": "Ahmad",
-                    "account": [
-                        {
-                            "name": "Account 12",
-                            "product": {
-                                "name": "332 Plans"
-                            }
-                        }
-                    ]
+                    "projects": ["P0004", "P0001"]
                 }
             ]
         }

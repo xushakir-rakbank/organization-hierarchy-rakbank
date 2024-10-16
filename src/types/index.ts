@@ -7,34 +7,14 @@ export interface Employee {
     emplType?: string;
     yearOfJoining?: string;
     emplID?: string;
-    account?: Account[];
     reporties?: Employee[];
-}
-
-export interface Reporty {
-    name: string;
-    "Emp-ID"?: string;
-    avatar?: string;
-    type?: string;
-    title?: string;
-    exp?: string;
-    reporties?: Reporty[];
-    account?: Account[];
-}
-
-export interface Account {
-    name: string;
-    product: Product;
-}
-
-export interface Product {
-    name: string;
+    projects?: string[];
 }
 
 export interface Profile {
     Name: string;
     Designation: string;
-    "Laptop-Asset-id-SN-Type)": string;
+    "Laptop-Asset-id-SN-Type": string;
     Location: string;
     "Emp-ID": string;
     networkID: string;
@@ -65,7 +45,15 @@ export interface Profile {
     Oct: string;
     Nov: string;
     Dec: string;
-    Q3: string;
+    "Q3-Project": string;
+    "Q4-Project": string;
     LM: string;
     Squad: string;
+}
+
+export interface Project {
+    id: string;
+    name: string;
+    description: string;
+    technologies: string[];
 }
